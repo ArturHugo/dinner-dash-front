@@ -1,0 +1,79 @@
+
+/*
+imagem da tela de login
+*/
+.imgLogin {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+ }
+
+.loginMenu {
+    width: 38%;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 1;
+    float: right;
+    padding: 19vh 4.8vw;
+}
+
+.dinnerdash {
+    font-family: 'Open Sans';
+    color: #3f3f3f;
+    margin-bottom: 8vh;
+    font-size: 3vw;
+}
+
+.inputBox {
+    width: 100%;
+    margin: 0.6vh 0;
+    height: 3vw;
+    border-radius: 2px;
+    border: solid #e2e2e2 1px;
+}
+
+.loginButton {
+    width: 100%;
+    background-color: #29a755;
+    color: white;
+    height: 3vw;
+    border-radius: 2px;
+    border: none;
+    font-size: 1.1vw;
+    font-family: 'Open Sans';
+    margin: 1.5vh 0;
+}
+
+.loginLabel {
+    font-family: 'Open Sans';
+    color: #959595;
+    font-size: 1.1vw;
+}
+
+.divLine {
+    height: 1px;
+    width: 100%;
+    background-color: #ebebeb;
+    margin: 4.5vh 0;
+}
+
+div p {
+    font-family: 'Open Sans';
+    color: #3f3f3f;
+    font-size: 1.3vw;
+}
+
+.criarCadastro {
+    width: 100%;
+    background-color: white;
+    color: #29a755;
+    height: 3vw;
+    border-radius: 2px;
+    border: solid #29a755 1px;
+    font-size: 1.1vw;
+    font-family: 'Open Sans';
+    margin: 1.5vh 0;
+    text-align: center;
+    line-height: 3vw;
+}
