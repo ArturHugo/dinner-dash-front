@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login</title>
+    <title>Cadastro</title>
     <link rel="stylesheet" href="file:///home/artur/PT2018/dinner-dash-front/css/autenticacao/login.css">
     <link rel="stylesheet" href="file:///home/artur/PT2018/dinner-dash-front/css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet"> 
@@ -17,17 +17,21 @@
     <div class="loginMenu">
         <h1 class="dinnerdash">dinnerdash</h1>
         <form>
+            <label class="loginLabel" for="nome">Nome</label>
+            <input class="inputBox" type="text" name="nome">
             <label class="loginLabel" for="email">Email</label>
             <input class="inputBox" type="text" name="email">
             <label class="loginLabel" for="senha">Senha</label>
             <input class="inputBox" type="password" name="senha">
-            <input class="loginButton" type="submit" value="fazer login">
+            <label class="loginLabel" for="confirmSenha">Confirmar senha</label>
+            <input class="inputBox" type="password" name="confirmSenha">
+            <input class="loginButton" type="submit" value="cadastrar">
         </form>
         <!--linha de divisao-->
         <div class="divLine"></div>
-        <p>Não possui conta?</p>
-        <a class ="criarCadastro" href="file:///home/artur/PT2018/dinner-dash-front/html/autenticacao/cadastro.html">
-            fazer meu cadastro
+        <p>Já possui conta?</p>
+        <a class ="criarCadastro" href="file:///home/artur/PT2018/dinner-dash-front/html/autenticacao/login.html">
+            fazer login
         </a>
     </div>
 </body>
